@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkweather_app"]=self["webpackChunkweather_app"]||[]).push([[443],{4335:function(a,e,n){n.r(e),n.d(e,{default:function(){return o}});var t=n(6252);const r={class:"about"},u=(0,t._)("h1",null,"This is an about page",-1),s=[u];function c(a,e){return(0,t.wg)(),(0,t.iD)("div",r,s)}var i=n(3744);const p={},h=(0,i.Z)(p,[["render",c]]);var o=h}}]);
+//# sourceMappingURL=about.ce3281aa.js.map
