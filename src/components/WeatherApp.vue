@@ -8,21 +8,21 @@
           :condition="weather.fact?.condition"
           :daytime="weather.fact?.daytime"
         />
-        <span class="city">{{ selectedCity.name }}</span>
+        <span class="city">{{ selectedCity?.name }}</span>
       </div>
       <div class="another_info">
         <div class="humidity">
           <Icon class="icon" width="24" icon="material-symbols:humidity-mid" />
-          <span>{{ weather.fact.humidity }}%</span>
+          <span>{{ weather.fact?.humidity }}%</span>
         </div>
         <div class="wind_speed">
           <Icon class="icon" width="24" icon="uil:wind" />
-          <span>{{ weather.fact.wind_speed }}M/S</span>
+          <span>{{ weather.fact?.wind_speed }}M/S</span>
         </div>
         <div class="temp_water">
           <Icon class="icon" width="24" icon="mdi:coolant-temperature" />
           <span>{{
-            weather.fact.temp_water ? weather.fact.temp_water + "°" : "-"
+            weather.fact?.temp_water ? weather.fact?.temp_water + "°" : "-"
           }}</span>
         </div>
       </div>
