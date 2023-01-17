@@ -41,6 +41,9 @@ footer {
     border: none;
     padding: 12px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .prev {
     transform: rotate(180deg);
